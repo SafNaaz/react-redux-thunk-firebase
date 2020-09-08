@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <h1>MarioPlan</h1>
+    <BrowserRouter>
+      <h1>MarioPlan</h1>
+    </BrowserRouter>
   );
 }
 
