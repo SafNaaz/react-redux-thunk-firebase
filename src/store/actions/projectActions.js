@@ -1,6 +1,6 @@
 export const createProject = (project) =>{
-    return {
-        type : 'ADD_PROJECT',
-        project : project
+    return (dispatch, getState)=>{
+        // make asyn call to db
+        dispatch({type:'CREATE_PROJECT', project})
     }
 }
